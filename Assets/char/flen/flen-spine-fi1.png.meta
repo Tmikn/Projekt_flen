@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 735780806e12fc64691877c3f39137dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8326583324292108464
+    second: flen-spine-fi1_0
+  - first:
+      213: 1928707810230609553
+    second: flen-spine-fi1_1
+  - first:
+      213: 6156898618521523125
+    second: flen-spine-fi1_2
+  - first:
+      213: -7805667796717346603
+    second: flen-spine-fi1_3
+  - first:
+      213: 7997284102169100912
+    second: flen-spine-fi1_4
+  - first:
+      213: -326000632376017343
+    second: flen-spine-fi1_5
+  - first:
+      213: 1466132511622602914
+    second: flen-spine-fi1_6
+  - first:
+      213: -8431644405136273486
+    second: flen-spine-fi1_7
+  - first:
+      213: -1670029281433292735
+    second: flen-spine-fi1_8
+  - first:
+      213: -4800146843279041651
+    second: flen-spine-fi1_9
+  - first:
+      213: -5256499159550865383
+    second: flen-spine-fi1_10
+  - first:
+      213: -2669260467562820983
+    second: flen-spine-fi1_11
+  - first:
+      213: 24760023647424405
+    second: flen-spine-fi1_12
+  - first:
+      213: -4918974926782448334
+    second: flen-spine-fi1_13
+  - first:
+      213: 7813407124967513309
+    second: flen-spine-fi1_14
+  - first:
+      213: 9133124249198310350
+    second: flen-spine-fi1_15
+  - first:
+      213: -8381309068113523840
+    second: flen-spine-fi1_16
+  - first:
+      213: 8322815096289673508
+    second: flen-spine-fi1_17
+  - first:
+      213: -4207307922370299839
+    second: flen-spine-fi1_18
+  - first:
+      213: 5210999345584738945
+    second: flen-spine-fi1_19
+  - first:
+      213: 8513495966747633596
+    second: flen-spine-fi1_20
+  - first:
+      213: 5083108311110911654
+    second: flen-spine-fi1_21
+  - first:
+      213: 1686138856059328302
+    second: flen-spine-fi1_22
+  - first:
+      213: 2277289331815079000
+    second: flen-spine-fi1_23
+  - first:
+      213: 4642759861436354505
+    second: flen-spine-fi1_24
+  - first:
+      213: -6205601877722315709
+    second: flen-spine-fi1_25
+  - first:
+      213: 1371156919472929124
+    second: "\u4E0A\u8EAB"
+  - first:
+      213: -216588789348499769
+    second: "\u53D1"
+  - first:
+      213: 1199539015121340180
+    second: "\u53F3\u624B"
+  - first:
+      213: 2721647745461085032
+    second: "\u53F3\u811A"
+  - first:
+      213: 2364385992815024783
+    second: "\u53F3\u817F"
+  - first:
+      213: -5089205558405628140
+    second: "\u53F3\u81C2"
+  - first:
+      213: 4622887406695535889
+    second: "\u540E\u53D1"
+  - first:
+      213: 1142312400512041062
+    second: "\u5634"
+  - first:
+      213: 2997829368044041279
+    second: "\u5DE6\u811A"
+  - first:
+      213: 6724776286488420952
+    second: "\u5DE6\u817F"
+  - first:
+      213: -4607824111269329280
+    second: "\u5DE6\u81C2"
+  - first:
+      213: 5761444342957972791
+    second: "\u7709"
+  - first:
+      213: 188933208688277577
+    second: "\u773C"
+  - first:
+      213: -4937789777382736222
+    second: "\u7EC4 1"
+  - first:
+      213: 2203288408959458490
+    second: "\u7EC4 2"
+  - first:
+      213: -5451033298630640126
+    second: "\u8033"
+  - first:
+      213: -6816198518468602207
+    second: "\u8116\u5B50"
+  - first:
+      213: -6477251124731262025
+    second: "\u8138"
+  - first:
+      213: -7795563504965773796
+    second: "\u88D9"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: -0.5
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flen-spine-fi1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2319
+        width: 1409
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b05f15da67fd8370800000000000000
+      internalID: 8326583324292108464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2230
+        width: 239
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1962150e88524ca10800000000000000
+      internalID: 1928707810230609553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_2
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2387
+        width: 1573
+        height: 1158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b391134ca2b17550800000000000000
+      internalID: 6156898618521523125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_3
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 1527
+        width: 1296
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0e4fdbe72bca390800000000000000
+      internalID: -7805667796717346603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1379
+        width: 984
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0720badf48f0cfe60800000000000000
+      internalID: 7997284102169100912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_5
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1084
+        width: 1062
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ebcaee620d97bf0800000000000000
+      internalID: -326000632376017343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_6
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 838
+        width: 1097
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0aaec50cfb85410800000000000000
+      internalID: 1466132511622602914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 729
+        width: 1124
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf41771618ccfa80800000000000000
+      internalID: -8431644405136273486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_8
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 452
+        width: 1054
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140faab773dd2d8e0800000000000000
+      internalID: -1670029281433292735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_9
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 1
+        width: 875
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd3a8d0e3726db0800000000000000
+      internalID: -4800146843279041651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 274
+        width: 1789
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910d4d05dd92d07b0800000000000000
+      internalID: -5256499159550865383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_11
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 587
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98acce14fb1e4fad0800000000000000
+      internalID: -2669260467562820983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 54
+        width: 232
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f822e3c17f75000800000000000000
+      internalID: 24760023647424405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 93
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d341ead5a4cbbb0800000000000000
+      internalID: -4918974926782448334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 72
+        width: 83
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcd139026cce6c60800000000000000
+      internalID: 7813407124967513309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1
+        width: 172
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3b8f28d106fbe70800000000000000
+      internalID: 9133124249198310350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_16
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 34
+        width: 198
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b45520fcb9fab80800000000000000
+      internalID: -8381309068113523840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_17
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 2
+        width: 210
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421ca91eb34908370800000000000000
+      internalID: 8322815096289673508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_18
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1
+        width: 213
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1487e626cb3ac95c0800000000000000
+      internalID: -4207307922370299839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_19
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1821f56bb40315840800000000000000
+      internalID: 5210999345584738945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_20
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 2
+        width: 357
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7a6bea973062670800000000000000
+      internalID: 8513495966747633596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_21
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 2
+        width: 1098
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a60a96d314da8640800000000000000
+      internalID: 5083108311110911654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 52
+        width: 58
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2756652b5e566710800000000000000
+      internalID: 1686138856059328302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_23
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1
+        width: 105
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cdf99e49e8a9f10800000000000000
+      internalID: 2277289331815079000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf0b5ede756e6040800000000000000
+      internalID: 4642759861436354505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flen-spine-fi1_25
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1
+        width: 142
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3444ddc88f541e9a0800000000000000
+      internalID: -6205601877722315709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u4E0A\u8EAB"
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 1527
+        width: 1295
+        height: 859
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469b08c14f3570310800000000000000
+      internalID: 1371156919472929124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u53D1"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1380
+        width: 982
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cefc84c4a58efcf0800000000000000
+      internalID: -216588789348499769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u53F3\u624B"
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 2
+        width: 357
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417878af06e95a010800000000000000
+      internalID: 1199539015121340180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u53F3\u811A"
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1084
+        width: 1062
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86363ff543c35c520800000000000000
+      internalID: 2721647745461085032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u53F3\u817F"
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2
+        width: 1099
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a16ad888cffc020800000000000000
+      internalID: 2364385992815024783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u53F3\u81C2"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 274
+        width: 1789
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff94622828f59b0800000000000000
+      internalID: -5089205558405628140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u540E\u53D1"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2230
+        width: 1409
+        height: 972
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115d6b07a9bc72040800000000000000
+      internalID: 4622887406695535889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u5634"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6604b07731f4adf00800000000000000
+      internalID: 1142312400512041062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u5DE6\u811A"
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 838
+        width: 1096
+        height: 687
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34bf735ded6a9920800000000000000
+      internalID: 2997829368044041279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u5DE6\u817F"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 729
+        width: 1126
+        height: 649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852ec163764335d50800000000000000
+      internalID: 6724776286488420952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u5DE6\u81C2"
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 452
+        width: 1061
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086cf445268bd00c0800000000000000
+      internalID: -4607824111269329280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7709"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 420
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d913fba13c4ff40800000000000000
+      internalID: 5761444342957972791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u773C"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2
+        width: 373
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948b32690c93f9200800000000000000
+      internalID: 188933208688277577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7EC4 1"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2
+        width: 211
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aefb87eb52797bb0800000000000000
+      internalID: -4937789777382736222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7EC4 2"
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2
+        width: 335
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc93c96227a39e10800000000000000
+      internalID: 2203288408959458490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u8033"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2
+        width: 170
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e7b40881a0a54b0800000000000000
+      internalID: -5451033298630640126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u8116\u5B50"
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 2
+        width: 210
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6922caf8ff761a0800000000000000
+      internalID: -6816198518468602207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u8138"
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 2
+        width: 873
+        height: 834
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbc4658b6e2c16a0800000000000000
+      internalID: -6477251124731262025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u88D9"
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2388
+        width: 1573
+        height: 1157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16148e7b4890d390800000000000000
+      internalID: -7795563504965773796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flen-spine-fi1_0: 8326583324292108464
+      flen-spine-fi1_1: 1928707810230609553
+      flen-spine-fi1_10: -5256499159550865383
+      flen-spine-fi1_11: -2669260467562820983
+      flen-spine-fi1_12: 24760023647424405
+      flen-spine-fi1_13: -4918974926782448334
+      flen-spine-fi1_14: 7813407124967513309
+      flen-spine-fi1_15: 9133124249198310350
+      flen-spine-fi1_16: -8381309068113523840
+      flen-spine-fi1_17: 8322815096289673508
+      flen-spine-fi1_18: -4207307922370299839
+      flen-spine-fi1_19: 5210999345584738945
+      flen-spine-fi1_2: 6156898618521523125
+      flen-spine-fi1_20: 8513495966747633596
+      flen-spine-fi1_21: 5083108311110911654
+      flen-spine-fi1_22: 1686138856059328302
+      flen-spine-fi1_23: 2277289331815079000
+      flen-spine-fi1_24: 4642759861436354505
+      flen-spine-fi1_25: -6205601877722315709
+      flen-spine-fi1_3: -7805667796717346603
+      flen-spine-fi1_4: 7997284102169100912
+      flen-spine-fi1_5: -326000632376017343
+      flen-spine-fi1_6: 1466132511622602914
+      flen-spine-fi1_7: -8431644405136273486
+      flen-spine-fi1_8: -1670029281433292735
+      flen-spine-fi1_9: -4800146843279041651
+      "\u4E0A\u8EAB": 1371156919472929124
+      "\u53D1": -216588789348499769
+      "\u53F3\u624B": 1199539015121340180
+      "\u53F3\u811A": 2721647745461085032
+      "\u53F3\u817F": 2364385992815024783
+      "\u53F3\u81C2": -5089205558405628140
+      "\u540E\u53D1": 4622887406695535889
+      "\u5634": 1142312400512041062
+      "\u5DE6\u811A": 2997829368044041279
+      "\u5DE6\u817F": 6724776286488420952
+      "\u5DE6\u81C2": -4607824111269329280
+      "\u7709": 5761444342957972791
+      "\u773C": 188933208688277577
+      "\u7EC4 1": -4937789777382736222
+      "\u7EC4 2": 2203288408959458490
+      "\u8033": -5451033298630640126
+      "\u8116\u5B50": -6816198518468602207
+      "\u8138": -6477251124731262025
+      "\u88D9": -7795563504965773796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

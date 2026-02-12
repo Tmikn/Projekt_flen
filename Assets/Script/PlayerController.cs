@@ -1,74 +1,38 @@
 using UnityEngine;
+using Spine.Unity;
 
-public class PlayerController : MonoBehaviour
+public class SimpleMove : MonoBehaviour
 {
-    [Header("ÒÆ¶¯ÉèÖÃ")]
-    public float maxSpeed = 8f;      // ×î´óËÙ¶È
-    public float acceleration = 40f; // ¼ÓËÙ¶È
-    public float deceleration = 30f; // ¼õËÙÄ¦²ÁÁ¦
+    public float speed = 5f;
 
-    private float currentSpeed = 0f;
-
-    [Header("ÒÆ¶¯²ÎÊı")]
-    //public float moveSpeed = 8f;
-    public float jumpForce = 12f;
-
-    [Header("×´Ì¬¼ì²â")]
-    public Transform groundCheck;
-    public float checkRadius = 0.2f;
-    public LayerMask groundLayer;
+    // æŠŠå­ç‰©ä½“ flen æ‹–åˆ°è¿™é‡Œ
+    public SkeletonAnimation skeletonAnimation;
 
     private Rigidbody2D rb;
-    private Animator anim;
-    private bool isGrounded;
-    private float moveInput;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // »ñÈ¡¶¯»­×é¼ş
+        // é”å®š Z è½´ï¼Œé˜²æ­¢çˆ¶ç‰©ä½“æ‘”å€’
+        if (rb != null) rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     void Update()
     {
-        // 1. »ñÈ¡ÊäÈë
-        moveInput = Input.GetAxisRaw("Horizontal");
+        float moveInput = Input.GetAxisRaw("Horizontal");
 
-        // 2. µØÃæ¼ì²â
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
-
-        // 3. ÌøÔ¾´¦Àí
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        // 1. å¤„ç†ç§»åŠ¨ (çˆ¶ç‰©ä½“ç§»åŠ¨)
+        if (rb != null)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
         }
 
-        // 4. ½ÇÉ«×ªÏò
-        if (moveInput != 0)
+        // 2. å¤„ç†è½¬å‘ (åªç¿»è½¬å­ç‰©ä½“çš„ Spine éª¨éª¼)
+        if (moveInput != 0 && skeletonAnimation != null)
         {
-            transform.localScale = new Vector3(moveInput > 0 ? -1 : 1, 1, 1);
+            // é‡ç‚¹ï¼šè¿™é‡Œåªæ”¹éª¨éª¼ ScaleXï¼Œç»å¯¹ä¸å‡†åŠ¨ transform.localScale
+            // å¦‚æœæ–¹å‘åäº†ï¼ŒæŠŠ 1 å’Œ -1 äº’æ¢
+            skeletonAnimation.skeleton.ScaleX = (moveInput > 0) ? 1f : -1f;
         }
-
-
-    }
-
-    void FixedUpdate()
-    {
-        float targetSpeed = moveInput * maxSpeed;
-
-        // ½¥½ø²åÖµ¼ÆËãµ±Ç°ËÙ¶È
-        if (Mathf.Abs(targetSpeed) > 0.01f)
-        {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, acceleration * Time.fixedDeltaTime);
-        }
-        else
-        {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, 0, deceleration * Time.fixedDeltaTime);
-        }
-
-        rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);
-
-        // ´«¸ø Animator µÄÒÀÈ»ÊÇ¾ø¶ÔÖµ£¬ÓÃÓÚ¿ØÖÆ¶¯»­ÇĞ»»
-        anim.SetFloat("Speed", Mathf.Abs(currentSpeed));
     }
 }
