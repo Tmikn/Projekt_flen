@@ -1,138 +1,152 @@
-﻿
+
 flen-spine-fi1.png
-size: 4100,3547
+size: 4185,3887
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 上身
   rotate: true
-  xy: 2194, 1161
+  xy: 877, 1161
   size: 859, 1295
   orig: 912, 1335
   offset: 0, 40
   index: -1
 发
   rotate: false
-  xy: 2, 1319
+  xy: 2194, 1527
   size: 982, 848
   orig: 985, 850
   offset: 2, 1
   index: -1
 右手
   rotate: true
-  xy: 1765, 3275
+  xy: 1843, 3615
   size: 270, 357
   orig: 514, 357
   offset: 0, 0
   index: -1
 右脚
   rotate: true
-  xy: 1130, 1682
+  xy: 1130, 2022
   size: 781, 1062
   orig: 781, 1062
   offset: 0, 0
   index: -1
 右腿
   rotate: true
-  xy: 2124, 3097
+  xy: 2202, 3437
   size: 448, 1099
   orig: 448, 1744
   offset: 0, 0
   index: -1
 右臂
   rotate: true
-  xy: 2, 2820
+  xy: 2, 3186
   size: 453, 1789
   orig: 453, 1789
   offset: 0, 0
   index: -1
 后发
-  rotate: true
-  xy: 2, 345
+  rotate: false
+  xy: 3178, 966
   size: 972, 1409
   orig: 972, 1409
   offset: 0, 0
   index: -1
 嘴
   rotate: false
-  xy: 2, 3535
+  xy: 2, 3875
   size: 30, 10
   orig: 33, 56
   offset: 1, 1
   index: -1
+图层 1
+  rotate: true
+  xy: 3303, 3066
+  size: 819, 880
+  orig: 821, 882
+  offset: 1, 1
+  index: -1
+图层 2
+  rotate: false
+  xy: 34, 3833
+  size: 76, 52
+  orig: 78, 54
+  offset: 1, 1
+  index: -1
 左脚
   rotate: true
-  xy: 2856, 2022
+  xy: 2856, 2377
   size: 687, 1096
   orig: 687, 1097
   offset: 0, 1
   index: -1
 左腿
   rotate: true
-  xy: 2, 2169
+  xy: 2, 2535
   size: 649, 1126
   orig: 649, 1130
   offset: 0, 4
   index: -1
 左臂
   rotate: true
-  xy: 1793, 2465
+  xy: 1793, 2805
   size: 630, 1061
   orig: 630, 1061
   offset: 0, 0
   index: -1
 眉
   rotate: false
-  xy: 34, 3445
+  xy: 112, 3785
   size: 420, 100
   orig: 423, 102
   offset: 1, 1
   index: -1
 眼
   rotate: false
-  xy: 628, 3416
+  xy: 706, 3756
   size: 373, 129
   orig: 375, 141
   offset: 1, 2
   index: -1
 组 1
   rotate: false
-  xy: 1215, 3350
+  xy: 1293, 3690
   size: 211, 195
   orig: 213, 197
   offset: 1, 1
   index: -1
 组 2
   rotate: false
-  xy: 1428, 3301
+  xy: 1506, 3641
   size: 335, 244
   orig: 337, 247
   offset: 1, 2
   index: -1
 耳
   rotate: true
-  xy: 456, 3444
+  xy: 534, 3784
   size: 101, 170
   orig: 104, 172
   offset: 1, 1
   index: -1
 脖子
   rotate: true
-  xy: 1003, 3362
+  xy: 1081, 3702
   size: 183, 210
   orig: 183, 210
   offset: 0, 0
   index: -1
 脸
   rotate: true
-  xy: 3225, 2711
+  xy: 2, 1699
   size: 834, 873
   orig: 836, 875
   offset: 1, 1
   index: -1
 裙
   rotate: false
-  xy: 1413, 2
+  xy: 2, 2
   size: 1573, 1157
   orig: 1573, 1165
   offset: 0, 8

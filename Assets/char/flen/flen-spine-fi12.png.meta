@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: -1566144374653093774
     second: flen-spine-fi12_0
-  - first:
-      213: 9011508374739597091
-    second: "\u5251"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -42,14 +39,14 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 1
     aniso: 1
-    mipBias: -0.5
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -124,33 +121,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "\u5251"
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 3181
-        height: 1788
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 327bfce2f1f4f0d70800000000000000
-      internalID: 9011508374739597091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +136,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       flen-spine-fi12_0: -1566144374653093774
-      "\u5251": 9011508374739597091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
