@@ -24,21 +24,22 @@ public class PlayerController : MonoBehaviour
 
     [Header("三连击设置")]
     public Transform attackPoint;
-    public GameObject swordBeamPrefab;
+    public GameObject swordBeamPrefab;  // 必须把 SwordBeam 预制体拖进来
 
-    public int comboCount = 0;          // 当前连击数 (0, 1, 2, 3)
-    public float comboWindow = 1.0f;    // 连击有效窗口期 (上次攻击结束后多久内按键算连击)
-    public float lastAttackEndTime;     // 上次攻击结束的时间点
+    public int comboCount = 0;
+    public float comboWindow = 1.0f;
+    public float lastAttackEndTime;
 
+    private string currentAnim = "";
     private Rigidbody2D rb;
-    private bool isAttacking = false;   // 是否正在动作硬直中
-    private string currentAnim = ""; // 记录当前播放的动画名
+    private bool isAttacking = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         if (rb != null) rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        if (skeletonAnimation == null) skeletonAnimation = GetComponentInChildren<SkeletonAnimation>();
+        if (skeletonAnimation == null)
+            skeletonAnimation = GetComponentInChildren<SkeletonAnimation>();
     }
 
     void Update()
@@ -46,17 +47,15 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
         float moveInput = Input.GetAxisRaw("Horizontal");
 
-        // --- 1. 连击输入检测 ---
-        // 条件：按下攻击键 + 当前没在攻击动作中
-        if (Input.GetButtonDown("Fire1") && !isAttacking)
+        // 连击输入检测 (地面且未攻击)
+        if (Input.GetButtonDown("Fire1") && !isAttacking && isGrounded)
         {
             CheckCombo();
         }
 
-        // --- 2. 状态处理 ---
+        // 状态处理
         if (!isAttacking)
         {
-            // 正常移动和跳跃
             if (Input.GetButtonDown("Jump") && isGrounded)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
@@ -67,7 +66,6 @@ public class PlayerController : MonoBehaviour
             }
             HandleSpineAnimation(moveInput);
 
-            // 超时重置连击：如果超过了窗口期还没攻击，连击数归零
             if (Time.time > lastAttackEndTime + comboWindow)
             {
                 comboCount = 0;
@@ -75,23 +73,19 @@ public class PlayerController : MonoBehaviour
         }
         else if (isAttacking && rb != null && isGrounded)
         {
-            // 攻击时定身
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.linearVelocity = Vector2.zero; // 攻击时定身
         }
     }
 
     void CheckCombo()
     {
-        // 如果距离上次攻击结束已经过了太久，重置为第一击
         if (Time.time > lastAttackEndTime + comboWindow)
         {
             comboCount = 0;
         }
 
-        // 连击数 +1
         comboCount++;
 
-        // 如果超过3击，重置为1 (或者你可以设置打完一套强制冷却)
         if (comboCount > 3)
         {
             comboCount = 1;
@@ -104,88 +98,96 @@ public class PlayerController : MonoBehaviour
     {
         isAttacking = true;
 
-        // --- 根据连击数设置不同的参数 ---
-        float damageDelay = 0.2f; // 动作持续时间
-        Color charColor = Color.white; // 角色变色
-        Vector3 beamScale = Vector3.one; // 剑气大小
-        Color beamColor = Color.white;   // 剑气颜色
+        float damageDelay = 0.2f;
+        Color charColor = Color.white;
+        Vector3 beamScale = Vector3.one;
+        Color beamColor = Color.white;
 
         switch (currentHit)
         {
-            case 1: // 第一击：轻快
+            case 1:
                 damageDelay = 0.2f;
-                charColor = Color.yellow;      // 变黄
+                charColor = Color.yellow;
                 beamScale = new Vector3(1f, 1f, 1f);
-                beamColor = Color.cyan;        // 蓝光
-                Debug.Log("连击 1！");
+                beamColor = Color.cyan;
                 break;
-
-            case 2: // 第二击：稍重
+            case 2:
                 damageDelay = 0.25f;
-                charColor = new Color(1f, 0.5f, 0f); // 橙色
-                beamScale = new Vector3(1.5f, 1.2f, 1f); // 变大
-                beamColor = Color.yellow;      // 黄光
-                Debug.Log("连击 2！！");
+                charColor = new Color(1f, 0.5f, 0f);
+                beamScale = new Vector3(1.5f, 1.2f, 1f);
+                beamColor = Color.yellow;
                 break;
-
-            case 3: // 第三击：终结技
-                damageDelay = 0.5f;            // 硬直更长
-                charColor = Color.red;         // 红色
-                beamScale = new Vector3(2.5f, 2f, 1f);   // 巨大
-                beamColor = Color.red;         // 红光
-                Debug.Log("连击 3！！！(终结)");
+            case 3:
+                damageDelay = 0.5f;
+                charColor = Color.red;
+                beamScale = new Vector3(2.5f, 2f, 1f);
+                beamColor = Color.red;
                 break;
         }
 
-        // 1. 角色变色反馈
+        // Spine 变色 (使用安全写法)
         if (skeletonAnimation != null)
-            skeletonAnimation.skeleton.SetColor(charColor);
+        {
+            skeletonAnimation.skeleton.R = charColor.r;
+            skeletonAnimation.skeleton.G = charColor.g;
+            skeletonAnimation.skeleton.B = charColor.b;
+            skeletonAnimation.skeleton.A = charColor.a;
+        }
 
-        // 2. 生成剑气 (带方向修正)
+        // 确定朝向
         float direction = (skeletonAnimation.skeleton.ScaleX > 0) ? 1f : -1f;
+
         if (attackPoint != null)
         {
-            // 修正攻击点位置
+            // 调整发波点位置 (根据朝向)
             Vector3 localPos = attackPoint.localPosition;
             localPos.x = Mathf.Abs(localPos.x) * direction;
             attackPoint.localPosition = localPos;
 
             if (swordBeamPrefab != null)
             {
+                // 生成剑气
                 GameObject beam = Instantiate(swordBeamPrefab, attackPoint.position, Quaternion.identity);
 
-                // 设置剑气大小
+                // 设置剑气的大小和方向
                 Vector3 finalScale = beamScale;
-                finalScale.x *= direction; // 修正方向
+                finalScale.x *= direction;
                 beam.transform.localScale = finalScale;
 
-                // 设置剑气颜色 (如果Prefab上有SpriteRenderer)
+                // 设置剑气颜色
                 SpriteRenderer sr = beam.GetComponent<SpriteRenderer>();
                 if (sr != null) sr.color = beamColor;
 
-                Destroy(beam, damageDelay); // 特效持续时间等于动作时间
+                // 注意：Destroy(beam) 在 SwordBeam 脚本里已经写了，这里不需要重复写
+                // 但为了保险起见，damageDelay 之后可以不销毁，让 SwordBeam 自己管理寿命
+                // 或者你希望按照连击节奏强制销毁也行：
+                Destroy(beam, damageDelay + 0.1f);
             }
         }
 
-        // 3. 播放Idle防止滑步
         if (isGrounded) SetAnimation(idleAnim, true);
 
-        // 等待动作硬直
         yield return new WaitForSeconds(damageDelay);
 
-        // 4. 恢复
+        // 恢复 Spine 颜色
         if (skeletonAnimation != null)
-            skeletonAnimation.skeleton.SetColor(Color.white);
+        {
+            skeletonAnimation.skeleton.R = 1;
+            skeletonAnimation.skeleton.G = 1;
+            skeletonAnimation.skeleton.B = 1;
+            skeletonAnimation.skeleton.A = 1;
+        }
 
         isAttacking = false;
-        lastAttackEndTime = Time.time; // 记录这次攻击结束的时间，用于判断连击窗口
+        lastAttackEndTime = Time.time;
     }
 
-    // --- 以下是原有的辅助函数 ---
     void HandleSpineAnimation(float input)
     {
         if (skeletonAnimation == null) return;
-        if (input != 0) skeletonAnimation.skeleton.ScaleX = (input > 0) ? 1f : -1f;
+
+        if (input != 0)
+            skeletonAnimation.skeleton.ScaleX = (input > 0) ? 1f : -1f;
 
         if (isGrounded)
         {
@@ -197,7 +199,6 @@ public class PlayerController : MonoBehaviour
 
     void SetAnimation(string name, bool loop)
     {
-        // 简单状态机：如果正在移动输入，不要被Idle打断 (除了攻击强制调用)
         if (currentAnim == name) return;
         skeletonAnimation.state.SetAnimation(0, name, loop);
         currentAnim = name;
@@ -205,7 +206,10 @@ public class PlayerController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        if (groundCheck != null) { Gizmos.color = Color.red; Gizmos.DrawWireSphere(groundCheck.position, checkRadius); }
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
+        }
     }
 }
-

@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Weapon_Player
+  - Weapon_Enemy
+  - Enemy
   layers:
   - Default
   - TransparentFX
